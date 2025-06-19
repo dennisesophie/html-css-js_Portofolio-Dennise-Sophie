@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="dekstop-nav">
+        <div class="logo" onclick="window.location.href='index.html'">Dennise Sophie</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Dennise Sophie</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+        <section id="projects">
+        <p class="section__text__p1">Découvrir</p>
+        <h1 class="title">Projet École</h1>
+        <h1 class="title">Dans le cadre d’un cours spécialisé en UI Design</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <video width="100%" height="50%" src="./assets/projettt.mp4" type="video/mp4"></video>
+                </div>
+                <p>Cliquez sur l'image (vidéo)</p>
+                <h2>Objectif =</h2>
+                <h3>💻 Créer l’identité visuelle complète d’un site web de restaurant</h3> 
+                <h3>À travers des maquettes et prototypes fonctionnels, </h3>
+                <h3>en mettant l’accent sur l’ergonomie,</h3>    
+                <h3>la navigation intuitive et l’expérience client.</h3> 
+                <h3>Une aventure formatrice et inspirante.</h3>
+                <h2>🛠️ Outils utilisés = Figma</h2> 
+                <h3>Maquette</h3>
+                <img src="./assets/maquette.png" alt="Description de l'image">
+                <h3>Prototype</h3>
+                <img src="./assets/prototype.png" alt="Description de l'image">
+            </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

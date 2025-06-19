@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="dekstop-nav">
+        <div class="logo" onclick="window.location.href='index.html'">Dennise Sophie</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Dennise Sophie</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+        <section id="projects">
+        <p class="section__text__p1">Découvrir</p>
+        <h1 class="title">Projet École</h1>
+        <h1 class="title">Dans le cadre d’un cours spécialisé en Développement web</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <video width="100%" height="50%" src="./assets/video.mp4" type="video/mp4"></video>
+                </div>
+                <p>Cliquez sur l'image (vidéo)</p>
+                <h2>🌍✨ Objectif du projet</h2>
+                <h3>nous avons conçu un site web responsive mettant en valeur la richesse des cultures à travers différents thèmes. </h3> 
+                <h3>ma équipe s’est concentrée sur les traditions capillaires </h3>
+                <h3>j’ai exploré l’univers spirituel des temples en Indonésie</h3>    
+                <h3>en créant une interface immersive et adaptée à tous les formats d’écran.</h3> 
+                <h3>Ce projet nous a permis de mêler expression culturelle et compétences techniques en développement web.</h3>
+                <h2>🛠️ Outils utilisés =</h2> 
+                <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScirpt</li>
+                    </ul>
+            </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

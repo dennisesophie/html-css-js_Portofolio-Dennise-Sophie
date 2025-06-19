@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Portofolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+    <nav id="dekstop-nav">
+        <div class="logo" onclick="window.location.href='index.html'">Dennise Sophie</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">À Propos</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Dennise Sophie</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="projects">
+        <p class="section__text__p1">Découvrir</p>
+        <h1 class="title">Projet Professionnel Pendant Stage</h1>
+        <h1 class="title">En tant que Développement web et Webdesign </h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <video width="100%" height="50%" src="./assets/stage.mp4" type="video/mp4"></video>
+                </div>
+                <p>Cliquez sur l'image (vidéo)</p>
+                <h2 class="experience sub-title project-title">Entreprise = Alien Store France</h2>
+                <h2>En Télétravail | <a href="https://alien-store.net/" target="_blank">Visiter le site web</a></h2>
+                <h3>💻 Plongé dans l’univers du e-commerce durant ce stage,</h3> 
+                <h3>J’ai relevé le défi de créer des sites à la fois modernes 
+                    et efficaces sur Shopify. </h3>
+                <h3>Chaque étape m’a permis d’allier sens du détail,</h3>    
+                <h3>maîtrise du code et compréhension des besoins utilisateurs.</h3> 
+                <h3>Une aventure formatrice et inspirante.</h3>
+                <p>🛠️ Outils utilisés 
+                    <ul>
+                        <li>Shopify</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScirpt</li>
+                    </ul>
+                </p>
+            </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
